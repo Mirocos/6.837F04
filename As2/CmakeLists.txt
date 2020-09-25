@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.10)
+project(raytracer)
+# set(CMAKE_CXX_STANDARD 11)
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+aux_source_directory(./src SRC_DIR)
+message(${CMAKE_CURRENT_SOURCE_DIR})
+# find_package(OPENGL REQUIRED)
+# find_package(GLUT REQUIRED)
+
+
+set(OVERRIDE_PROJECT_NAME ${PROJECT_NAME}-As2)
+
+add_executable(${OVERRIDE_PROJECT_NAME} ${SRC_DIR})
+set_target_properties(${OVERRIDE_PROJECT_NAME} PROPERTIES OUTPUT_NAME ${PROJECT_NAME})
+
+

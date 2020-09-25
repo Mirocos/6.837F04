@@ -1,0 +1,8 @@
+/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/As1/CMakeFiles/rebuild_cache.dir
+/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/As1/CMakeFiles/edit_cache.dir
+/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/As1/CMakeFiles/raytracer-As1.dir
+/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/As2/CMakeFiles/rebuild_cache.dir
+/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/As2/CMakeFiles/edit_cache.dir
+/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/As2/CMakeFiles/raytracer-As2.dir

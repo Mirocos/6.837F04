@@ -1,0 +1,204 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../As2/include/camera.h
+vectors.h
+../As2/include/vectors.h
+ray.h
+../As2/include/ray.h
+
+../As2/include/group.h
+object3d.h
+../As2/include/object3d.h
+vector
+-
+
+../As2/include/hit.h
+vectors.h
+../As2/include/vectors.h
+ray.h
+../As2/include/ray.h
+
+../As2/include/image.h
+assert.h
+-
+vectors.h
+../As2/include/vectors.h
+
+../As2/include/light.h
+vectors.h
+../As2/include/vectors.h
+object3d.h
+../As2/include/object3d.h
+
+../As2/include/material.h
+vectors.h
+../As2/include/vectors.h
+
+../As2/include/matrix.h
+math.h
+-
+assert.h
+-
+vectors.h
+../As2/include/vectors.h
+
+../As2/include/object3d.h
+ray.h
+../As2/include/ray.h
+hit.h
+../As2/include/hit.h
+material.h
+../As2/include/material.h
+
+../As2/include/plane.h
+object3d.h
+../As2/include/object3d.h
+
+../As2/include/ray.h
+iostream
+-
+vectors.h
+../As2/include/vectors.h
+
+../As2/include/scene_parser.h
+vectors.h
+../As2/include/vectors.h
+assert.h
+-
+
+../As2/include/sphere.h
+object3d.h
+../As2/include/object3d.h
+vectors.h
+../As2/include/vectors.h
+
+../As2/include/transform.h
+object3d.h
+../As2/include/object3d.h
+matrix.h
+../As2/include/matrix.h
+
+../As2/include/triangle.h
+object3d.h
+../As2/include/object3d.h
+
+../As2/include/vectors.h
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+assert.h
+-
+iostream
+-
+
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/camera.cpp
+camera.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/camera.h
+cmath
+-
+
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/group.cpp
+group.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/group.h
+
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/image.cpp
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+image.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/image.h
+
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/main.cpp
+iostream
+-
+scene_parser.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/scene_parser.h
+camera.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/camera.h
+image.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/image.h
+ray.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/ray.h
+group.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/group.h
+light.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/light.h
+
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/matrix.cpp
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+string.h
+-
+matrix.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/matrix.h
+vectors.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/vectors.h
+
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/object3d.cpp
+object3d.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/object3d.h
+
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/plane.cpp
+plane.h
+-
+
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/scene_parser.cpp
+stdio.h
+-
+string.h
+-
+scene_parser.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/scene_parser.h
+matrix.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/matrix.h
+camera.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/camera.h
+light.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/light.h
+material.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/material.h
+object3d.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/object3d.h
+group.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/group.h
+sphere.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/sphere.h
+plane.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/plane.h
+triangle.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/triangle.h
+transform.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/transform.h
+
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/sphere.cpp
+sphere.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/sphere.h
+cstdio
+-
+cmath
+-
+
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/transform.cpp
+transform.h
+-
+
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/triangle.cpp
+triangle.h
+/Users/mirocos/study/MIT 6.837/Assignments/As2/src/triangle.h
+

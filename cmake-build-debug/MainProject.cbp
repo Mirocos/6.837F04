@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MainProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\As1\;CMake Files\As2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytracer-As1">
+				<Option output="/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/As1/raytracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/As1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mirocos/study/MIT 6.837/Assignments/As1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As1/Makefile&quot;  VERBOSE=1 raytracer-As1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytracer-As1/fast">
+				<Option output="/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/As1/raytracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/As1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mirocos/study/MIT 6.837/Assignments/As1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As1/Makefile&quot;  VERBOSE=1 raytracer-As1/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytracer-As2">
+				<Option output="/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/As2/raytracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/As2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mirocos/study/MIT 6.837/Assignments/As2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As2/Makefile&quot;  VERBOSE=1 raytracer-As2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytracer-As2/fast">
+				<Option output="/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/As2/raytracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mirocos/study/MIT 6.837/Assignments/cmake-build-debug/As2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mirocos/study/MIT 6.837/Assignments/As2/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As2/Makefile&quot;  VERBOSE=1 raytracer-As2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mirocos/study/MIT\ 6.837/Assignments/cmake-build-debug/As2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As1/src/camera.cpp">
+			<Option target="raytracer-As1"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As1/src/group.cpp">
+			<Option target="raytracer-As1"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As1/src/image.cpp">
+			<Option target="raytracer-As1"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As1/src/main.cpp">
+			<Option target="raytracer-As1"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As1/src/matrix.cpp">
+			<Option target="raytracer-As1"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As1/src/object3d.cpp">
+			<Option target="raytracer-As1"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As1/src/scene_parser.cpp">
+			<Option target="raytracer-As1"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As1/src/sphere.cpp">
+			<Option target="raytracer-As1"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As2/src/camera.cpp">
+			<Option target="raytracer-As2"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As2/src/group.cpp">
+			<Option target="raytracer-As2"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As2/src/image.cpp">
+			<Option target="raytracer-As2"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As2/src/main.cpp">
+			<Option target="raytracer-As2"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As2/src/matrix.cpp">
+			<Option target="raytracer-As2"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As2/src/object3d.cpp">
+			<Option target="raytracer-As2"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As2/src/plane.cpp">
+			<Option target="raytracer-As2"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As2/src/scene_parser.cpp">
+			<Option target="raytracer-As2"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As2/src/sphere.cpp">
+			<Option target="raytracer-As2"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As2/src/transform.cpp">
+			<Option target="raytracer-As2"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As2/src/triangle.cpp">
+			<Option target="raytracer-As2"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\As1\"/>
+		</Unit>
+		<Unit filename="/Users/mirocos/study/MIT 6.837/Assignments/As2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\As2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
