@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../As1/include/camera.h
+vectors.h
+../As1/include/vectors.h
+ray.h
+../As1/include/ray.h
+
+../As1/include/ray.h
+iostream
+-
+vectors.h
+../As1/include/vectors.h
+
+../As1/include/vectors.h
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+assert.h
+-
+iostream
+-
+
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/camera.cpp
+camera.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/camera.h
+

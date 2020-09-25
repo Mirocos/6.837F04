@@ -1,0 +1,160 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../As1/include/camera.h
+vectors.h
+../As1/include/vectors.h
+ray.h
+../As1/include/ray.h
+
+../As1/include/group.h
+object3d.h
+../As1/include/object3d.h
+vector
+-
+
+../As1/include/hit.h
+vectors.h
+../As1/include/vectors.h
+ray.h
+../As1/include/ray.h
+
+../As1/include/image.h
+assert.h
+-
+vectors.h
+../As1/include/vectors.h
+
+../As1/include/material.h
+vectors.h
+../As1/include/vectors.h
+
+../As1/include/matrix.h
+math.h
+-
+assert.h
+-
+vectors.h
+../As1/include/vectors.h
+
+../As1/include/object3d.h
+ray.h
+../As1/include/ray.h
+hit.h
+../As1/include/hit.h
+material.h
+../As1/include/material.h
+
+../As1/include/ray.h
+iostream
+-
+vectors.h
+../As1/include/vectors.h
+
+../As1/include/scene_parser.h
+vectors.h
+../As1/include/vectors.h
+assert.h
+-
+
+../As1/include/sphere.h
+object3d.h
+../As1/include/object3d.h
+vectors.h
+../As1/include/vectors.h
+
+../As1/include/vectors.h
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+assert.h
+-
+iostream
+-
+
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/camera.cpp
+camera.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/camera.h
+
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/group.cpp
+group.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/group.h
+
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/image.cpp
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+image.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/image.h
+
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/main.cpp
+iostream
+-
+scene_parser.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/scene_parser.h
+camera.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/camera.h
+image.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/image.h
+ray.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/ray.h
+group.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/group.h
+
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/matrix.cpp
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+string.h
+-
+matrix.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/matrix.h
+vectors.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/vectors.h
+
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/object3d.cpp
+object3d.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/object3d.h
+
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/scene_parser.cpp
+stdio.h
+-
+string.h
+-
+scene_parser.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/scene_parser.h
+matrix.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/matrix.h
+camera.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/camera.h
+material.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/material.h
+object3d.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/object3d.h
+group.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/group.h
+sphere.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/sphere.h
+
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/sphere.cpp
+sphere.h
+/Users/mirocos/study/MIT 6.837/Assignments/As1/src/sphere.h
+cstdio
+-
+cmath
+-
+
